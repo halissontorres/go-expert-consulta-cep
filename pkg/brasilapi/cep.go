@@ -11,9 +11,11 @@ type BrasilApi struct {
 	Service      string `json:"service"`
 }
 
+const BrasilApiUrl = "https://brasilapi.com.br/api/cep/v1/$s"
+
 func (ba BrasilApi) String() string {
 	return fmt.Sprintf(
-		"BrasilApi{Cep: %s, State: %s, City: %s, Neighborhood: %s, Street: %s, Service: %s\n}",
+		"[BrasilApi] Cep: %s, State: %s, City: %s, Neighborhood: %s, Street: %s, Service: %s",
 		ba.Cep, ba.State, ba.City, ba.Neighborhood, ba.Street, ba.Service,
 	)
 }

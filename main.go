@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/halissontorres/go-expert-client-server-api/pkg/model/brasilapi"
+	"github.com/halissontorres/go-expert-client-server-api/pkg/brasilapi/client"
 )
 
 func main() {
-	ba := brasilapi.BrasilApi{}
+	ba := client.BrasilApi{}
 	ba.String()
 }
