@@ -21,7 +21,7 @@ Principais diretórios:
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/marcelo-gomes/brasilapi-go.git`
+git clone https://github.com/marcelo-gomes/brasilapi-go.git
 ```
 
 ### 2. Execute a aplicação
