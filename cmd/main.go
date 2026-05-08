@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"os"
 	"time"
 
@@ -10,12 +9,6 @@ import (
 	"github.com/halissontorres/go-expert-consulta-cep/pkg/brasilapi"
 	"github.com/halissontorres/go-expert-consulta-cep/pkg/viacep"
 )
-
-type response struct {
-	provedor string
-	payload  fmt.Stringer
-	err      error
-}
 
 func main() {
 	cep := "13330-250" // CEP DA FullCycle :)
