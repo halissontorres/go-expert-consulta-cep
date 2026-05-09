@@ -87,8 +87,8 @@ A aplicação deve:
 
 ## APIs consultadas
 
-- [BrasilAPI](https://brasilapi.com.br/api/cep/v1/{cep})
-- [ViaCEP](https://viacep.com.br/ws/{cep}/json/)
+- [BrasilAPI](https://brasilapi.com.br/api/cep/v1/13330250)
+- [ViaCEP](https://viacep.com.br/ws/13330250/json/)
 
 ## Requisitos do desafio
 
